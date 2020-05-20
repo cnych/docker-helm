@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER cnych <icnych@gmail.com>
 
-ARG HELM_VERSION="v2.10.0"
+ARG HELM_VERSION="v3.2.1"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps wget git openssl bash \
